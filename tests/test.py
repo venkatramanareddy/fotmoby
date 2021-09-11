@@ -1,6 +1,4 @@
-# from ..src.FotMob import FotMob
+from FotMoby import FotMoby as fm
 
-# fm = FotMob()
-# r_league = fm.getLeague()
-# print(r_league.json())
-# # print(FotMob().getLeague())
+r_league = fm.getLeague()
+print(r_league.json())

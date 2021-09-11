@@ -1,13 +1,18 @@
-# FotMob-py
+# fotmoby
 
 An unofficial FotMob API wrapper for python
+
+## Installation
+
+``` bash
+pip install fotmoby
+```
 
 ## Example usage
 
 ``` py
-from FotMob import FotMob
+from FotMoby import FotMoby as fm
 
-fm = FotMob()
 r_league = fm.getLeague()
 print(r_league.json())
 ```
